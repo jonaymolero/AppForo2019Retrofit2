@@ -8,9 +8,6 @@ import android.view.ViewGroup
 import kotlinx.android.synthetic.main.rowtemas.view.*
 import net.azarquiel.foro2019.model.Tema
 
-/**
- * Created by pacopulido on 9/10/18.
- */
 class CustomAdapter(val context: Context,
                     val layout: Int
                     ) : RecyclerView.Adapter<CustomAdapter.ViewHolder>() {
